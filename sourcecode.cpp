@@ -42,6 +42,7 @@ int main()
 	cout<<"    - '"<<"黑名单方块：刷怪笼"<<"'"<<endl;
 	cout<<"    - '"<<"&4只会掉落矿物"<<"'"<<endl;
 	cout<<"    enchants:\n    - 'DIG_SPEED:5'\n    blacklisted-blocks:\n    - 'MOB_SPAWNER'\n    whitelisted-drops:\n    - 'COAL'\n    - 'IRON_ORE'\n    - 'GOLD_ORE'\n    - 'REDSTONE'\n    - 'INK_SACK:4'\n    - 'DIAMOND'\n    - 'EMERALD'\n    - 'QUARTZ'\n"; 
+	fclose(stdout);
 	system("pause");
 	return 0;
 } 
